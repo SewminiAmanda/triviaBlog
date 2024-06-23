@@ -1,0 +1,36 @@
+.cardBox{ 
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    height: 200px;
+    background-color: #E9E9E9;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.cardBox:hover{
+    opacity: 0.8;
+}
+.cardBox:active{
+    opacity: 0.6;
+}
+.proPicFrame{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: red;
+    overflow: hidden;
+    margin-right: 15px;
+}
+ 
+.proImg{
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #101318;
+}

@@ -1,0 +1,41 @@
+.editProfileMainDiv {
+    display: flex;
+    margin-top: 3px;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+  }
+  
+  .editProfileContainer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px; /* Adjust as needed */
+    width: 90%;
+  }
+  
+  .editProfileimg {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between the two divs */
+  }
+  
+  .secondDivEditProfile {
+    flex: 1;
+    margin-left: 150px;
+  }
+  
+  /* Style for image */
+  .editProfileimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style for form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .editProfilemainText{
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  

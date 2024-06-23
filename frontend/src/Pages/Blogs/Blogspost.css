@@ -1,0 +1,119 @@
+/* Blogspost.css */
+
+.mainBlogpostcard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    height: 650px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .mainBlogpostcard:hover{
+    transform: scale(1.05);
+  }
+  
+  .BlogpostCard {
+    display: flex;
+    flex-direction: column;
+    height:500px;
+  }
+  
+  .blogPostImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .blogPostText {
+    padding: 20px;
+  }
+  
+  .blogPostTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blogPostDescription {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .blogCardFooterMainDIv {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .blogCardFooterRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .BlogCardAuthorInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authorProfilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .authorUsername {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .BlogFooterkButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .BlogFooterkButton .insideBlogLike {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .likesCount,
+  .CommentCount {
+    font-size: 1em;
+    color: #333;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .blogPostDate {
+    font-size: 0.9em;
+    color: #999;
+    margin-left: auto;
+  }
+  
+  .BlogFooteMarkIcon {
+    width: 24px;
+    height: 24px;
+    color: #333;
+  }
+  
+  .bookmarkWrapper {
+    display: flex;
+    align-items: center;
+  }
+  

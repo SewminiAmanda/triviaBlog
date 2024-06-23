@@ -1,0 +1,109 @@
+.footer {
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+  height: fit-content;
+  width: 100%;
+  padding-top: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.footerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.call,
+.facebook,
+.twitter,
+.email,
+.location {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.footerText,
+.footerNav {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  bottom: 0;
+}
+
+.footerText {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footer-nav-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-menu li {
+  margin-right: 30px;
+}
+
+.footer-nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav-menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-nav-menu li.active a {
+  font-weight: bold;
+}
+
+.footer-nav-menu li a:hover {
+  color: #cccccc;
+}
+
+.footer-nav-menu li a:focus {
+  outline: none !important;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footerIcon {
+    flex-wrap: wrap;
+  }
+
+  .footer-nav-menu li {
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerText {
+    font-size: 0.8em;
+  }
+
+  .footer-nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-nav-menu li {
+    margin: 5px 0;
+  }
+}

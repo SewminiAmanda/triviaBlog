@@ -1,0 +1,88 @@
+.shoppingform{
+    border: 1px solid purple;
+    width: 40%;
+    margin-left:50px; 
+    height: max-content;
+    margin-bottom: 50px;
+    
+}
+.shoptable{
+    padding: 25px;    
+}
+
+.adpost h1{
+    margin-left:100px;
+    padding : 25px;
+
+}
+.shoptable th{
+    text-align: left;
+    padding-right: 67px;
+}
+
+.shoptable input{
+    width: 383px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid purple;
+    
+}
+.shoppingform textarea{
+    border: 1px solid purple;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+.shopbutton{
+    margin-left: 150px;
+    width: 250px;
+    height: 45px;
+    font-size: large;
+    font-weight: 600;
+    border:1px solid purple;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.shopbutton:hover{
+    background-color: purple;
+    color: white;
+    
+}
+.restrict p{
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: left;
+    margin-left: 25px;
+    color: red;
+    font-weight: 600;
+}
+.restrict input{
+    margin-left: 40px;
+    
+}
+.shopbody{
+    display: flex;
+}
+.shopadver{
+    margin-left: 100px;
+}
+
+
+/*...................productdescription css................*/
+.pdescrip{
+    
+}
+.pdescrip h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.pdetails{
+    border: 1px solid gray;
+    width: 1225px;
+    height: 1000px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
